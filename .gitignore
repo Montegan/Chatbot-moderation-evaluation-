@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Virtual environment directory
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+*.pot
+*.pid
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py[cod].cover
+.hypothesis/
+
+# Django specific
+*.log
+staticfiles/
+media/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Local environment files
+.env
+.env.*
+.venv
+*.local
+*.DS_Store
+
+# MySQL and SQLite database files
+*.db
+*.sqlite3
+
+# VS Code settings (optional)
+.vscode/
