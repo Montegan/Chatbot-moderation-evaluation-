@@ -1,9 +1,5 @@
-import json
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import JSONLoader
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.output_parsers import JsonOutputParser
 from dotenv import load_dotenv
 # Loaded all the secret keys
 load_dotenv()
