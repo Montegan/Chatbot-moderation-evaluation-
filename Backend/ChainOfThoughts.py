@@ -85,7 +85,6 @@ def validate_response(system_response, user_input, knowledge):
                            assistant response: {assistant_response}
                            question:{original_question}
                            context:{context}
-
                            You should respond with only one character Y or N:
                            where Y means the response is correcty addressing the question and answer is also based on the context.
                                   N means the assistant didn't give the desired output.
