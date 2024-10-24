@@ -36,10 +36,13 @@ pip install langchain-openai langchain-core langchain-community openai python-do
 ## Usage
 
 ```python
-from customer_service import moderateInput
+from Moderations import moderateInput
 
-# Example query
-response = moderateInput("What is the most expensive TV you have?")
+def AskQuestions(user_input):
+    return moderateInput(user_input)
+
+response = AskQuestions(
+    "I want to what is the price difference between the cheapest and the most expensive phone ")
 ```
 
 ## Learn More
